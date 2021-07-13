@@ -3,7 +3,7 @@ Implementation of parallel computation of a set of LSTMs.
 
 Task: Run through N independent LSTMs in parallel.
 
-Layer: LSTMCellset
+Layer: LSTMCellset \\
 Inputs: x, (hidden_state, cell_state) 
 x: (batch, # of LSTMs, input_size)
 hidden_state: (batch, # of LSTMs, hidden_size)
